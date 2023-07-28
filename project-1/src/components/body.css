@@ -1,0 +1,74 @@
+.body-div{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0px;
+    margin: 50px 0px 20px 100px;
+}
+
+.content{
+    height: 600px;
+    width: 700px;
+}
+
+.nike-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.nike-discription h1{
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 100px;
+}
+
+.nike-discription p{
+    font-weight: 600;
+    color: #5A5959;
+    margin-top: -50px;
+    margin-right: 300px;
+}
+
+.button-section{
+    height: 40px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-section button{
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.shopNow{
+    background-color: #D01C28;
+    color: white;
+    border: none;
+}
+
+.category{
+    background-color: white;
+    color: #5A5959;
+}
+
+.reference-section{
+    height: 130px;
+    width: 70px;
+    font-weight: 400px;
+}
+
+.shoe-image img{
+    height: 500px;
+    width: 500px;
+    margin-top: 180px;
+    margin-right: 50px;
+    object-fit: fill;
+    scale: 1.1;
+}
