@@ -1,0 +1,23 @@
+.formField{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formField label{
+    display: block;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    padding: 0px 5px;
+    font-weight: 400;
+}
+
+.formField input{
+    width: 95%;
+    padding: 0 8px;
+    height: 40px;
+    border: 2px black solid;
+}

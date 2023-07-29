@@ -1,0 +1,19 @@
+.contactUsHeader{
+    width: 85%;
+    padding: 0% 2.5%;
+}
+
+.contactUsHeader h1{
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 5%;
+}
+
+.contactUsHeader p{
+    font-weight: 600;
+    color: #5A5959;
+    line-height: 24px;
+    padding-right: 15%;
+    text-align: justify;
+}
