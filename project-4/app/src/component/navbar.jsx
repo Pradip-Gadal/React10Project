@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from "styled-components"
 import Button from './parts/Button';
-const Navbar = () => {
+const Navbar = ({searchFood, btnFunction, btnData}) => {
   return (
     <MainContainer>
       <LogoSearch>
         <div>
-            <img src='/public/Foody Zone (1).svg' />
+            <img className="image" src='/public/Foody Zone (1).svg' />
         </div>
-        <input type='text' placeholder='Search Food...' />
+        <input onChange={searchFood} type='text' placeholder='Search Food...' />
       </LogoSearch>
       <Buttons>
-        <Button />
+        <Button btnFunction = {btnFunction}/>
       </Buttons>
     </MainContainer>
   )
@@ -34,6 +34,13 @@ width: 100%;
 height: 40px;
 display: flex;
 justify-content: space-between;
+
+  .image{
+     cursor: pointer;
+      &:hover{
+         transform: scale(1.1);
+          }
+        }
 
     input{
         box-sizing: border-box;
